@@ -1,0 +1,484 @@
+﻿body {
+    background-color: #000000;
+    font-family: Lato-Regular;
+}
+
+::placeholder {
+    color: #b7a261;
+    opacity: 1;
+    /* Firefox */
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #b7a261;
+}
+
+ ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #b7a261;
+}
+
+.bg-dark {
+    background-color: #1d2733!important;
+}
+
+.header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    background-position: left;
+    z-index: 1;
+}
+
+.header p {
+    font-size: 20px;
+    font-family: 'Lato-Thin';
+    font-weight: 600;
+}
+
+.header-center {
+    background-image: url(../img/header-center-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    background-position: center;
+    z-index: 1;
+}
+
+.header-h {
+    background-image: url(../img/header-bg-lg.png);
+    height: 105px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #b7a261;
+    font-family: Baskerville-MT-Std;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2.25rem;
+}
+
+.guestbook-registration {
+    background-image: url(../img/registration-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.guestbook-registration p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.upload-your-photo {
+    background-image: url(../img/upload-photo-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.upload-your-photo p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.condolence {
+    background-image: url(../img/condolence-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.condolence p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.together_we_join {
+    background-image: url(../img/together_we_join_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.together_we_join p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.together_we_join li {
+    color: #faee85;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    width: 105px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.live-stream {
+    background-image: url(../img/live-stream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 8rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.live-stream p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.parting {
+    background-image: url(../img/parting-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 8rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.parting p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.guestbook-registration .upload-photo {
+    color: #b7a261;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border: 2px solid #b7a261;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.in-memorian {
+    background-image: url(../img/in-memorian.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.in-memorian p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.prelude {
+    background-image: url(../img/prelude-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 7rem;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.prelude p {
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+
+.profile-pic {
+    border-bottom: 1px solid #b7a261;
+    color: #b7a261;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flower {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    border: 0px solid #b7a261;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #b7a261;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #b7a261;
+    padding-left: 0;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #b7a261;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #b7a261;
+    padding-left: 0;
+    outline-width: 0;
+}
+
+textarea.form-control {
+    height: auto;
+    border: 2px solid #b7a261;
+    padding: .375rem .75rem;
+    min-height: 98px;
+}
+
+textarea.form-control:focus {
+    height: auto;
+    border: 2px solid #b7a261;
+    padding: .375rem .75rem;
+}
+
+.text-primary {
+    color: #b7a261 !important;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border: 2px solid #b7a261;
+    border-radius: 0px;
+    color: #b7a261;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #b7a261!important;
+    border: 2px solid #b7a261;
+    border-radius: 0px;
+    color: #000000 !important;
+}
+
+.btn-warning {
+    background-color: #b7a261;
+    border: 2px solid #b7a261;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+    background-color: #b7a261!important;
+    border: 2px solid #b7a261;
+    border-radius: 8px;
+    color: #000000 !important;
+}
+
+.btn-info {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active {
+    background-color: #b7a261!important;
+    border: 2px solid #b7a261;
+    border-radius: 8px;
+    color: #000000 !important;
+}
+
+.btn-danger {
+    background-color: #ff0000;
+    border: 2px solid #b7a261;
+    border-radius: 0px;
+    color: #ffffff;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+    background-color: #b7a261!important;
+    border: 2px solid #b7a261;
+    border-radius: 0px;
+    color: #000000 !important;
+}
+
+.img-box {
+    border: 2px solid #b7a261;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.border-l {
+    border-left: 2px solid #b7a261;
+    padding-left: 15px;
+}
+
+.photo-box {
+    width: 113px;
+    height: 130px;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.h-100px {
+    height: 115px;
+}
+
+.photo-frame {
+    margin-top: -6rem;
+}
+
+.participate i {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.participate span {
+    position: absolute;
+    background-color: #000000;
+    color: #ff0000;
+    margin: auto;
+    left: 15px;
+    width: 60px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: 35px;
+}
+
+.participate ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.text-custom {
+    color: #b7a261;
+}
+
+#EulogyNotes .modal-content {
+    background-color: rgb(0 0 0 / 89%);
+    border: 1px solid #b7a261;
+    border-radius: .0rem;
+}
+
+#EulogyNotes .scroll-notes {
+    overflow: auto;
+    max-height: 300px;
+}
+
+#EulogyNotes button.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+#Countdown .modal-content {
+    background-color: #000000;
+    border: 2px solid #b7a261;
+    border-radius: .0rem;
+}
+
+#Countdown .countdown {
+    background-color: #b7a261;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    font-size: 4rem;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#Whoislive .modal-content {
+    background-color: #000000;
+    border: 2px solid #b7a261;
+    border-radius: .0rem;
+}
+
+@media (max-width:767px) {
+    .how-it-works {
+        margin-bottom: 30px;
+    }
+    .flower {
+        display: inline-block;
+        margin-right: 5px;
+        margin-bottom: 15px;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .img-box {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .navbar-brand {
+        font-size: 34px !important;
+        white-space: normal;
+    }
+    .nav-text {
+        padding: 0 !important;
+        line-height: 1.2;
+        margin: 0;
+    }
+    .h-100px {
+        height: auto;
+    }
+    .photo-frame {
+        margin-top: 1rem;
+    }
+    .header-h {
+        height: auto;
+        padding: 1rem 0rem 3rem 0rem;
+        background-position: center;
+    }
+    .header p {
+        font-size: 16px;
+    }
+    .p-navbar {
+        padding: .1rem 0rem;
+    }
+    .participate ul li {
+        margin: 25px;
+        margin-bottom: 25px;
+    }
+    .speaker-room {
+        padding-top: 12rem;
+    }
+}

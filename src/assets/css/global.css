@@ -1,0 +1,220 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+.custom-group{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.form-input-control, .form-input-control:focus{
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #b7a261;
+    color: #b7a261;
+    padding-left: 0.375rem;
+}
+.text-yellow{
+    color: #b7a261;
+}
+.hover-yellow:hover{
+    color: #b7a261;
+}
+.max-height{
+    min-height: 500px;
+}
+.bv-no-focus-ring{
+    color: #b7a261;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #b7a261;
+    background-color: #b7a261;
+}
+.btn-primary:disabled{
+    color: #b7a261 !important;
+    border-color: #b7a261;
+    opacity: 0.5;
+    background-color: transparent !important;
+}
+.custom-radio input, .custom-radio label{
+    cursor: pointer;
+}
+.vuetable{
+    color: #b7a261;
+}
+.table th{
+    border-bottom: 2px solid #b7a261 !important;
+    border-top: 1px solid #b7a261;
+}
+.footer{
+    min-height: 100px;
+    border-top: 1px solid #b7a261;
+}
+.custom-height{
+    height: 580px;
+}
+.common-page{
+    background-image: url(../img/live-stream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+.common-page p{
+    color: #faee85;
+    font-family: Lato-Thin;
+    font-size: 1.7rem;
+}
+.bg-prelude{
+    background-image: url(../img/prelude-bg.png);
+}
+.main{
+    height: 100vh;
+}
+.large-font{
+    font-size: 6rem;
+}
+.minh-100{
+    min-height: 100%;
+}
+.navbar .text-yellow{
+    font-size: 1.2rem;
+}
+.navbar .logout{
+    position: absolute;
+    right: 0;
+}
+.image-page .img-fluid{
+    border-radius: 50%;
+}
+.speakers-page .participate img{
+    height: 100px;
+    width: 100px;
+}
+.speakers-page .user-list li{
+    cursor: pointer;
+}
+.with-footer{
+    border-bottom: 1px solid white;
+}
+.speaker-room-page footer .img-fluid{
+    border-radius: 50%;
+}
+.table td{
+    border-top: 1px solid #b7a261;
+}
+.br-50{
+    border-radius: 50%;
+}
+.round-image{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-overline{
+    text-decoration: overline;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+.home-page .image{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 0px solid #b7a261;
+    display: inline-block;
+    margin-right: 10px;
+}
+.text-grey{
+    color: grey;
+}
+.text-black{
+    color: black !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.photo-area{
+    width: 113px;
+    height: 113px;
+}
+.photo-area .photo-image{
+    width: 113px;
+    height: 113px;
+}
+.remove-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#myModal{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: opacity .3s ease;
+}
+.pop-enter-active,
+.pop-leave-active {
+    transition: transform 0.4s cubic-bezier(0.5, 0, 0.5, 1), opacity 0.4s linear;
+}
+
+.pop-enter,
+.pop-leave-to {
+    opacity: 0;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        margin: 0.5rem auto !important;
+    }
+}
+.enlarge-page{
+    height: 586px;
+}
+.minh-custom{
+    min-height: 580px;
+}
+.btn-danger{
+    border-color: #ff0000;
+    border-radius: 5px;
+}
+.btn-danger:hover{
+    background-color: #d70101 !important;
+    border-color: #d70101;
+    color: white !important;
+    border-radius: 5px !important;
+}
+.custom-modal{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: opacity .3s ease;
+}
+.participate-box{
+    border: 2px solid #b7a261;
+}
+.speaker_list ul li .img-fluid{
+    width: 100px;
+}
+.btn-blank{
+    border: none !important;
+    color: #fcd351 !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px 10px 0 10px!important;
+}
+.live_profile_img{
+    width: 80px;
+}
